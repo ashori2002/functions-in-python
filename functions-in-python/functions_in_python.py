@@ -63,9 +63,14 @@ names={"ali","akbar","asghar","fatemeh","reza"}
 
 def test9(*names):
     print(type(names).__name__)
-test9()
+test9(names)
 ####################################################################
 
 def test10(**names):
     print(type(names).__name__)
 test10()
+#$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+#$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+def module_test(name):
+    print("salam")
+module_test("ALI")
