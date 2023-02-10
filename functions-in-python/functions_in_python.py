@@ -1,4 +1,7 @@
 
+from ast import Return
+
+
 def test1():
     print("Hello world!")
 
@@ -37,3 +40,12 @@ test5("ziba")
 def test6(first_name , last_name):
     print(f"Welcome {first_name} {last_name}")
 test6(last_name="Ashori" , first_name="Mohammad")
+
+####################################################################
+
+def test7(first_name , last_name , middle_name=""):
+    full_name= f"{first_name} {last_name} {middle_name}"
+    return full_name.title()
+person = test7("Mohammad" , "Ashori 1380")
+print(person)
+print(type(person).__name__)
