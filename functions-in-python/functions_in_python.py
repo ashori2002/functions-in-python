@@ -32,3 +32,8 @@ test5("ali")
 test5("mohammad")
 test5("reza")
 test5("ziba")
+
+####################################################################
+def test6(first_name , last_name):
+    print(f"Welcome {first_name} {last_name}")
+test6(last_name="Ashori" , first_name="Mohammad")
