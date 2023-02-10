@@ -1,5 +1,6 @@
 
 from ast import Return
+from tokenize import Name
 
 
 def test1():
@@ -49,3 +50,22 @@ def test7(first_name , last_name , middle_name=""):
 person = test7("Mohammad" , "Ashori 1380")
 print(person)
 print(type(person).__name__)
+####################################################################
+
+names={"ali","akbar","asghar","fatemeh","reza"}
+
+def test8(names):
+    for name in names:
+        print(name)
+test8(names)
+####################################################################
+names={"ali","akbar","asghar","fatemeh","reza"}
+
+def test9(*names):
+    print(type(names).__name__)
+test9()
+####################################################################
+
+def test10(**names):
+    print(type(names).__name__)
+test10()
