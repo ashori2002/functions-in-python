@@ -1,4 +1,3 @@
-
-import module1.py 
-
-module1.module_test("jjjj")
+def module_test(name):
+    print("salam")
+module_test("ALI")

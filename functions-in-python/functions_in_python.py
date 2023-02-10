@@ -1,4 +1,4 @@
-
+import module1 as mld
 from ast import Return
 from tokenize import Name
 
@@ -71,6 +71,4 @@ def test10(**names):
 test10()
 #$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 #$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-def module_test(name):
-    print("salam")
-module_test("ALI")
+mld.module_test("ali")
