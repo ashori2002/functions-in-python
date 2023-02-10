@@ -23,3 +23,12 @@ def test4(first_name , last_name):
 F_N=input("Whats your first name?")
 L_N=input("Whats your last name?")
 test4(F_N , L_N)
+####################################################################
+def test5(name):
+    print(f"Welcome {name}")
+
+
+test5("ali")
+test5("mohammad")
+test5("reza")
+test5("ziba")
